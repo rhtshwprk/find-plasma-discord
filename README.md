@@ -19,7 +19,7 @@ UB Hacking Project 2020 (University at Buffalo Hackathon)
 ### ```plasma find```(find plasma donors command)
 ![find command](ss2.PNG)
 ### The bot responds in a DM
-![bot DMs the info](ss3.PNG)
+![bot DMs the info](ss3.png)
 
 ## Tools Used
 
