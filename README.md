@@ -14,7 +14,10 @@ UB Hacking Project 2020 (University at Buffalo Hackathon)
 **Find Plasma Bot** is a discord bot designed to assist the community to help each other in today's COVID-19 crysis. Compatible donors can share their info and thus help out patients who are in need of blood plasma for recovering from the virus. Recipients can add requests and automatically get the information of compatible donors from the server, right into their DM.
 
 ## Screenshots
+```plasma h```command (help)
 ![help command](ss1.PNG)
+![find command](ss2.PNG)
+![bot DMs the info](ss3.PNG)
 
 ## Tools Used
 
