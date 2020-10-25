@@ -30,8 +30,8 @@ async def find(context, *, message):
     if(len(arr) != 3):
         await context.message.channel.send("Please enter the information in the correct format")
         return
-    print(message)
-    print(arr)
+    print(message)  # Troubleshooting
+    print(arr)  # Troubleshooting
     name = arr[0]
     loc = arr[2]
     blood = arr[1].upper()
@@ -84,8 +84,8 @@ async def donate(context, *, message):
     if(len(arr) != 3):
         await context.message.channel.send("Please enter the information in the correct format")
         return
-    print(message)
-    print(arr)
+    print(message)  # Troubleshooting
+    print(arr)  # Troubleshooting
     name = arr[0]
     loc = arr[2]
     blood = arr[1].upper()
@@ -152,8 +152,9 @@ def isCompatible(don, rec):
             return False
     return False
 
-
 # Checking if the bot is online
+
+
 @client.event
 async def on_ready():
     await client.change_presence(status=discord.Status.online, activity=discord.Game('against COVID-19'))
@@ -166,7 +167,6 @@ async def on_ready():
     # df2 = pd.DataFrame(
     #    {"user_id": ['www', 'zzz'], "name": ['Sonali', 'Rahul'], "blood_group": ['AB+', 'AB+'], "location": ['Salt Lake', 'Kolkata']})
     # df2.to_csv('./needy.csv')
-
 
 # Run the bot on server
 client.run('NzY5NjI5MjIwNjM1ODAzNjQ4.X5RzEQ.nEFE-HoBF2N8b4eMQFyxj7PwTsE')
